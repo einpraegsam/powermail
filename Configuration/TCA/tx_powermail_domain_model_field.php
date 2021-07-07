@@ -212,7 +212,6 @@ $fieldsTca = [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'dividers2tabs' => true,
         'versioningWS' => true,
         'origUid' => 't3_origuid',
         'languageField' => 'sys_language_uid',
@@ -228,36 +227,27 @@ $fieldsTca = [
         ],
         'iconfile' => ConfigurationUtility::getIconPath(Field::TABLE_NAME . '.gif')
     ],
-    'interface' => [
-    ],
     'palettes' => [
         '1' => [
-            'showitem' => 'sender_email, sender_name',
-            'canNotCollapse' => 1
+            'showitem' => 'sender_email, sender_name'
         ],
         '2' => [
-            'showitem' => 'mandatory, validation, validation_configuration',
-            'canNotCollapse' => 1
+            'showitem' => 'mandatory, validation, validation_configuration'
         ],
         '21' => [
-            'showitem' => 'mandatory',
-            'canNotCollapse' => 1
+            'showitem' => 'mandatory'
         ],
         '3' => [
-            'showitem' => 'prefill_value, placeholder, feuser_value, create_from_typoscript',
-            'canNotCollapse' => 1
+            'showitem' => 'prefill_value, placeholder, feuser_value, create_from_typoscript'
         ],
         '31' => [
-            'showitem' => 'prefill_value, feuser_value',
-            'canNotCollapse' => 1
+            'showitem' => 'prefill_value, feuser_value'
         ],
         '32' => [
-            'showitem' => 'prefill_value, placeholder, feuser_value',
-            'canNotCollapse' => 1
+            'showitem' => 'prefill_value, placeholder, feuser_value'
         ],
         '33' => [
-            'showitem' => 'feuser_value, create_from_typoscript',
-            'canNotCollapse' => 1
+            'showitem' => 'feuser_value, create_from_typoscript'
         ],
         '4' => [
             'showitem' => 'css, multiselect, datepicker_settings'
@@ -272,10 +262,8 @@ $fieldsTca = [
             'showitem' => 'css'
         ],
         '5' => [
-            'showitem' => 'auto_marker, marker, own_marker_select',
-            'canNotCollapse' => 1
+            'showitem' => 'auto_marker, marker, own_marker_select'
         ],
-        'canNotCollapse' => '1'
     ],
     'types' => [
         '0' => [
@@ -343,18 +331,19 @@ $fieldsTca = [
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
-                'foreign_table' => 'sys_language',
-                'foreign_table_where' => 'ORDER BY sys_language.title',
-                'default' => 0,
+                'special' => 'languages',
                 'items' => [
-                    ['LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.allLanguages', -1],
-                    ['LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.default_value', 0]
+                    [
+                        'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.allLanguages',
+                        -1,
+                        'flags-multiple'
+                    ],
                 ],
-            ],
+                'default' => 0,
+            ]
         ],
         'l10n_parent' => [
             'displayCond' => 'FIELD:sys_language_uid:>:0',
-            'exclude' => true,
             'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.l18n_parent',
             'config' => [
                 'type' => 'select',
@@ -373,14 +362,6 @@ $fieldsTca = [
                 'type' => 'passthrough',
             ],
         ],
-        't3ver_label' => [
-            'label' => 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:LGL.versionLabel',
-            'config' => [
-                'type' => 'input',
-                'size' => 30,
-                'max' => 255,
-            ]
-        ],
         'hidden' => [
             'exclude' => true,
             'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.hidden',
@@ -391,7 +372,7 @@ $fieldsTca = [
         'starttime' => [
             'l10n_mode' => 'exclude',
             'exclude' => true,
-            'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.starttime',
+            'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:starttime_formlabel',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputDateTime',
@@ -407,7 +388,7 @@ $fieldsTca = [
         'endtime' => [
             'l10n_mode' => 'exclude',
             'exclude' => true,
-            'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.endtime',
+            'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:endtime_formlabel',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputDateTime',
@@ -421,7 +402,6 @@ $fieldsTca = [
             ],
         ],
         'title' => [
-            'exclude' => false,
             'label' =>
                 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:' . Field::TABLE_NAME . '.title',
             'config' => [
@@ -432,7 +412,6 @@ $fieldsTca = [
         ],
         'type' => [
             'l10n_mode' => 'exclude',
-            'exclude' => false,
             'label' =>
                 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:' . Field::TABLE_NAME . '.type',
             'config' => [
@@ -552,13 +531,12 @@ $fieldsTca = [
             ],
         ],
         'settings' => [
-            'exclude' => false,
             'label' => 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:' .
                 Field::TABLE_NAME . '.settings',
             'config' => [
                 'type' => 'text',
-                'cols' => '32',
-                'rows' => '5',
+                'cols' => 32,
+                'rows' => 5,
                 'default' => ''
             ],
         ],
@@ -587,12 +565,11 @@ $fieldsTca = [
             ],
         ],
         'text' => [
-            'exclude' => false,
             'label' => 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:' . Field::TABLE_NAME . '.text',
             'config' => [
                 'type' => 'text',
-                'cols' => '32',
-                'rows' => '5',
+                'cols' => 32,
+                'rows' => 5,
                 'default' => ''
             ],
         ],
@@ -804,8 +781,8 @@ $fieldsTca = [
                 Field::TABLE_NAME . '.prefill_value',
             'config' => [
                 'type' => 'text',
-                'cols' => '26',
-                'rows' => '2',
+                'cols' => 26,
+                'rows' => 2,
                 'default' => ''
             ],
         ],
@@ -815,8 +792,8 @@ $fieldsTca = [
                 Field::TABLE_NAME . '.placeholder',
             'config' => [
                 'type' => 'text',
-                'cols' => '26',
-                'rows' => '2',
+                'cols' => 26,
+                'rows' => 2,
                 'default' => ''
             ],
         ],
@@ -1018,8 +995,8 @@ $fieldsTca = [
                 Field::TABLE_NAME . '.description',
             'config' => [
                 'type' => 'text',
-                'cols' => '26',
-                'rows' => '2',
+                'cols' => 26,
+                'rows' => 2,
                 'eval' => 'trim'
             ],
         ],

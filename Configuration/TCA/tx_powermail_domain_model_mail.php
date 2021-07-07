@@ -22,7 +22,6 @@ $mailsTca = [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'dividers2tabs' => true,
         'versioningWS' => true,
         'origUid' => 't3_origuid',
         'languageField' => 'sys_language_uid',
@@ -38,8 +37,6 @@ $mailsTca = [
         'iconfile' => ConfigurationUtility::getIconPath(Mail::TABLE_NAME . '.gif'),
         'searchFields' => 'sender_mail, sender_name, subject, body'
     ],
-    'interface' => [
-    ],
     'types' => [
         '1' => [
             'showitem' => $typeDefault
@@ -54,19 +51,20 @@ $mailsTca = [
             'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.language',
             'config' => [
                 'type' => 'select',
-                'foreign_table' => 'sys_language',
                 'renderType' => 'selectSingle',
-                'foreign_table_where' => 'ORDER BY sys_language.title',
-                'default' => 0,
+                'special' => 'languages',
                 'items' => [
-                    ['LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.allLanguages', -1],
-                    ['LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.default_value', 0]
-                ]
-            ],
+                    [
+                        'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.allLanguages',
+                        -1,
+                        'flags-multiple'
+                    ],
+                ],
+                'default' => 0,
+            ]
         ],
         'l10n_parent' => [
             'displayCond' => 'FIELD:sys_language_uid:>:0',
-            'exclude' => true,
             'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.l18n_parent',
             'config' => [
                 'type' => 'select',
@@ -85,14 +83,6 @@ $mailsTca = [
                 'type' => 'passthrough',
             ],
         ],
-        't3ver_label' => [
-            'label' => 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:LGL.versionLabel',
-            'config' => [
-                'type' => 'input',
-                'size' => 30,
-                'max' => 255,
-            ]
-        ],
         'hidden' => [
             'exclude' => true,
             'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.hidden',
@@ -101,9 +91,9 @@ $mailsTca = [
             ],
         ],
         'starttime' => [
-            'exclude' => true,
             'l10n_mode' => 'exclude',
-            'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.starttime',
+            'exclude' => true,
+            'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:starttime_formlabel',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputDateTime',
@@ -117,9 +107,9 @@ $mailsTca = [
             ],
         ],
         'endtime' => [
-            'exclude' => true,
             'l10n_mode' => 'exclude',
-            'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.endtime',
+            'exclude' => true,
+            'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:endtime_formlabel',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputDateTime',
@@ -149,8 +139,8 @@ $mailsTca = [
                 Mail::TABLE_NAME . '.receiver_mail',
             'config' => [
                 'type' => 'text',
-                'cols' => '30',
-                'rows' => '5'
+                'cols' => 30,
+                'rows' => 5
             ],
         ],
         'sender_mail' => [
@@ -187,8 +177,8 @@ $mailsTca = [
             'label' => 'LLL:EXT:powermail/Resources/Private/Language/locallang_db.xlf:' . Mail::TABLE_NAME . '.body',
             'config' => [
                 'type' => 'text',
-                'cols' => '30',
-                'rows' => '5',
+                'cols' => 30,
+                'rows' => 5,
                 'enableRichtext' => true,
                 'fieldControl' => [
                     'fullScreenRichtext' => [
@@ -319,8 +309,8 @@ $mailsTca = [
                 Mail::TABLE_NAME . '.marketing_referer',
             'config' => [
                 'type' => 'text',
-                'cols' => '30',
-                'rows' => '5',
+                'cols' => 30,
+                'rows' => 5,
                 'readOnly' => 1,
                 'default' => ''
             ],
@@ -375,8 +365,8 @@ $mailsTca = [
                 Mail::TABLE_NAME . '.marketing_page_funnel',
             'config' => [
                 'type' => 'text',
-                'cols' => '30',
-                'rows' => '5',
+                'cols' => 30,
+                'rows' => 5,
                 'readOnly' => 1,
                 'default' => ''
             ],
