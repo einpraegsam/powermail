@@ -651,6 +651,192 @@
 			<trans-unit id="pluginInfo.more" resname="pluginInfo.more">
 				<source>More ...</source>
 			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete">
+				<source>Autocomplete</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer1">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer2">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer3">
+				<source>Telephone</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer4">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer5">
+				<source>Misc</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer6">
+				<source>Credit card</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.on">
+				<source>On</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.off">
+				<source>Off</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.honorific-prefix">
+				<source>Honorific prefix</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.given-name">
+				<source>Given name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.additional-name">
+				<source>Additional name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.family-name">
+				<source>Family name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.honorific-suffix">
+				<source>Honorific suffix</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.nickname">
+				<source>Nickname</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.username">
+				<source>Username</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.new-password">
+				<source>New password</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.current-password">
+				<source>Current password</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.organization-title">
+				<source>Organization title</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.organization">
+				<source>Organization</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.street-address">
+				<source>Street address</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-line1">
+				<source>Address line 1</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-line2">
+				<source>Address line 2</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-line3">
+				<source>Address line 3</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level4">
+				<source>Address level 4</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level3">
+				<source>Address level 3</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level2">
+				<source>Address level 2</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level1">
+				<source>Address level 1</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.country-name">
+				<source>Country name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.postal-code">
+				<source>Postal code</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-given-name">
+				<source>Given name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-additional-name">
+				<source>Additional name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-family-name">
+				<source>Family name</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-number">
+				<source>Number</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-exp">
+				<source>Expiration date</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-exp-month">
+				<source>Expiration month</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-exp-year">
+				<source>Expiration year</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-csc">
+				<source>Security code </source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.transaction-currency">
+				<source>Transaction currency</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.transaction-amount">
+				<source>Transaction amount</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.language">
+				<source>Language</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday">
+				<source>Birthday</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday-day">
+				<source>Birthday day</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday-month">
+				<source>Birthday month</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday-year">
+				<source>Birthday year</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.sex">
+				<source>Sex</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.url">
+				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.photo">
+				<source>Photo</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel">
+				<source>Telephone</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-country-code">
+				<source>Telephone country code</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-national">
+				<source>Telephone national</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-area-code">
+				<source>Telephone area code</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-local">
+				<source>Telephone local</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-local-prefix">
+				<source>Telephone local prefix</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-local-suffix">
+				<source>Telephone local suffix</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-extension">
+				<source>Telephone extension</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.impp">
+				<source>Instant messaging protocol</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

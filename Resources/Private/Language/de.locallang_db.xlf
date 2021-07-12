@@ -900,6 +900,254 @@
 				<source>More ...</source>
 				<target state="translated">Mehr ...</target>
 			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete">
+				<source>Autocomplete</source>
+				<target state="translated">Autocomplete</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer1">
+				<source>General</source>
+				<target state="translated">Allgemein</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer2">
+				<source>Name</source>
+				<target state="translated">Name</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer3">
+				<source>Telephone</source>
+				<target state="translated">Telefon</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer4">
+				<source>Address</source>
+				<target state="translated">Adresse</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer5">
+				<source>Misc</source>
+				<target state="translated">Sonstige</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.spacer6">
+				<source>Credit card</source>
+				<target state="translated">Kreditkarte</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.on">
+				<source>On</source>
+				<target state="translated">An</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.off">
+				<source>Off</source>
+				<target state="translated">Aus</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.name">
+				<source>Name</source>
+				<target state="translated">Name</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.honorific-prefix">
+				<source>Honorific prefix</source>
+				<target state="translated">Ehren-Präfix</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.given-name">
+				<source>Given name</source>
+				<target state="translated">Vorname</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.additional-name">
+				<source>Additional name</source>
+				<target state="translated">Zusätzlicher Name</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.family-name">
+				<source>Family name</source>
+				<target state="translated">Nachname</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.honorific-suffix">
+				<source>Honorific suffix</source>
+				<target state="translated">Ehren-Suffix</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.nickname">
+				<source>Nickname</source>
+				<target state="translated">Spitzname</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.username">
+				<source>Username</source>
+				<target state="translated">Nutzername</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.new-password">
+				<source>New password</source>
+				<target state="translated">Neues Passwort</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.current-password">
+				<source>Current password</source>
+				<target state="translated">Aktuelles Passwort</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.organization-title">
+				<source>Organization title</source>
+				<target state="translated">Organisationstitel</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.organization">
+				<source>Organization</source>
+				<target state="translated">Organisation</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.street-address">
+				<source>Street address</source>
+				<target state="translated">Adresse</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-line1">
+				<source>Address line 1</source>
+				<target state="translated">Adresszeile 1</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-line2">
+				<source>Address line 2</source>
+				<target state="translated">Adresszeile 2</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-line3">
+				<source>Address line 3</source>
+				<target state="translated">Adresszeile 3</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level4">
+				<source>Address level 4</source>
+				<target state="translated">Adressenebene 4</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level3">
+				<source>Address level 3</source>
+				<target state="translated">Adressenebene 3</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level2">
+				<source>Address level 2</source>
+				<target state="translated">Adressenebene 2</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.address-level1">
+				<source>Address level 1</source>
+				<target state="translated">Adressenebene 1</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.country">
+				<source>Country</source>
+				<target state="translated">Land</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.country-name">
+				<source>Country name</source>
+				<target state="translated">Ländername</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.postal-code">
+				<source>Postal code</source>
+				<target state="translated">Postleitzahl</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-name">
+				<source>Name</source>
+				<target state="translated">Name</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-given-name">
+				<source>Given name</source>
+				<target state="translated">Vorname</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-additional-name">
+				<source>Additional name</source>
+				<target state="translated">Zusätzlicher Name</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-family-name">
+				<source>Family name</source>
+				<target state="translated">Nachname</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-number">
+				<source>Number</source>
+				<target state="translated">Zahl</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-exp">
+				<source>Expiration date</source>
+				<target state="translated">Ablaufsdatum</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-exp-month">
+				<source>Expiration month</source>
+				<target state="translated">Ablaufsmonat</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-exp-year">
+				<source>Expiration year</source>
+				<target state="translated">Ablaufsjahr</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-csc">
+				<source>Security code </source>
+				<target state="translated">Sicherheitscode</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.cc-type">
+				<source>Type</source>
+				<target state="translated">Art</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.transaction-currency">
+				<source>Transaction currency</source>
+				<target state="translated">Transaktionswährung</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.transaction-amount">
+				<source>Transaction amount</source>
+				<target state="translated">Transaktionswert</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.language">
+				<source>Language</source>
+				<target state="translated">Sprache</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday">
+				<source>Birthday</source>
+				<target state="translated">Geburtstag</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday-day">
+				<source>Birthday day</source>
+				<target state="translated">Geburtstagstag</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday-month">
+				<source>Birthday month</source>
+				<target state="translated">Geburtstagsmonat</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.bday-year">
+				<source>Birthday year</source>
+				<target state="translated">Geburtstagsjahr</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.sex">
+				<source>Sex</source>
+				<target state="translated">Geschlecht</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.url">
+				<source>Url</source>
+				<target state="translated">URL</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.photo">
+				<source>Photo</source>
+				<target state="translated">Foto</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel">
+				<source>Telephone</source>
+				<target state="translated">Telefon</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-country-code">
+				<source>Telephone country code</source>
+				<target state="translated">Telefon Ländercode</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-national">
+				<source>Telephone national</source>
+				<target state="translated">Telefon national</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-area-code">
+				<source>Telephone area code</source>
+				<target state="translated">Telefonvorwahl</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-local">
+				<source>Telephone local</source>
+				<target state="translated">Telefon lokal</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-local-prefix">
+				<source>Telephone local prefix</source>
+				<target state="translated">Lokales Telefonpräfix</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-local-suffix">
+				<source>Telephone local suffix</source>
+				<target state="translated">Lokales Telefonsuffix</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.tel-extension">
+				<source>Telephone extension</source>
+				<target state="translated">Telefondurchwahl</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.email">
+				<source>Email</source>
+				<target state="translated">E-Mail</target>
+			</trans-unit>
+			<trans-unit id="tx_powermail_domain_model_field.autocomplete.impp">
+				<source>Instant messaging protocol</source>
+				<target state="translated">Instant Messaging-Protokoll</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
